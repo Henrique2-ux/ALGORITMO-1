@@ -7,16 +7,16 @@ int eBissexto(int ano) {
 int main () {
     int data_1, data_2;
 
-    printf("Digite dois anos (ex: 2000 2024):\n");
-    printf("Obs: O primeiro ano deve ser menor que o segundo.\n");
+    printf("digite dois anos (ex: 2000 2024):\n");
+    printf("obs: O primeiro ano deve ser menor que o segundo.\n");
     scanf("%d %d", &data_1, &data_2);
 
     if (data_1 >= data_2) {
-        printf("Erro: o primeiro ano deve ser menor que o segundo.\n");
+        printf("erro o primeiro ano deve ser menor que o segundo.\n");
         return 1;
     }
 
-    printf("Anos bissextos entre %d e %d:\n", data_1, data_2);
+    printf("anos bissextos entre %d e %d:\n", data_1, data_2);
     for (int ano = data_1 + 1; ano < data_2; ano++) {
         if (ehBissexto(ano)) {
             printf("%d\n", ano);
