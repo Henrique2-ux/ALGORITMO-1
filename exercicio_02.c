@@ -29,7 +29,7 @@ int main(){
     }
 
     if (altura < media){
-        printf(" Esta a baixo da media brasileira. \n");
+        printf("Esta a baixo da media brasileira. \n");
     }
 
     return 0;
