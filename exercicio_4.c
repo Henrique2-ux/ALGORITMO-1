@@ -13,7 +13,7 @@ int main () {
 
     if (data_1 >= data_2) {
         printf("erro o primeiro ano deve ser menor que o segundo.\n");
-        return 1;
+        return 7;
     }
 
     printf("anos bissextos entre %d e %d:\n", data_1, data_2);
