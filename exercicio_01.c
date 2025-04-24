@@ -1,4 +1,5 @@
 #include <stdio.h> 
+
 int main(){
     int segmento1, segmento2, segmento3;
 
