@@ -1,4 +1,4 @@
-#include <stdio.h>//Alg que tem como entrada a altura e o sexo 
+#include <stdio.h>
 int main (){
     float altura;
     int genero;
