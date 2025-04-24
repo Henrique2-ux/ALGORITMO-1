@@ -6,7 +6,7 @@ int main() {
     printf("Digite um valor real: ");
     scanf("%f", &valor);
 
-    printf("O valor real digitado foi: %.2f\n", valor);
+    printf("O valor real digitado foi: %.3f\n", valor);
 
     return 0;
 }
