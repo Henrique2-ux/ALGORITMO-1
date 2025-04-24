@@ -1,4 +1,4 @@
-#include <stdio.h> //alg. que mostre como entrada, Bom dia mundo!
+#include <stdio.h>
 
 int main(){
     
