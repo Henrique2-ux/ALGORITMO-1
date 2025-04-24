@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int eBissexto(int ano) {
+int Bissexto(int ano) {
     return (ano % 4 == 0 && ano % 100 != 0) || (ano % 400 == 0);
 }
 
@@ -18,7 +18,7 @@ int main () {
 
     printf("anos bissextos entre %d e %d:\n", data_1, data_2);
     for (int ano = data_1 + 1; ano < data_2; ano++) {
-        if (ehBissexto(ano)) {
+        if (Bissexto(ano)) {
             printf("%d\n", ano);
         }
     }
